@@ -43,6 +43,7 @@
         <a href="membership.php">membership</a>
         <a href="store.php">store</a>
         <a href="Forums/topics.php">Forums</a>
+        <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
     </div>
 </body>
 </html>
