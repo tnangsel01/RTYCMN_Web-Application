@@ -8,36 +8,36 @@
     <style>
         /* Add a black background color to the top navigation */
         .topnav {
-        background-color: #333;
-        overflow: hidden;
+            background-color: green;
+            overflow: hidden;
         }
 
         /* Style the links inside the navigation bar */
         .topnav a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
         }
 
         /* Change the color of links on hover */
         .topnav a:hover {
-        background-color: #ddd;
-        color: black;
+            background-color: yellow;
+            color: black;
         }
 
         /* Add a color to the active/current link */
         .topnav a.active {
-        background-color: #04AA6D;
-        color: white;
+            background-color: grey;
+            color: white;
         }
     </style>
 </head>
 <body>
     <div class="topnav">
-        <a  href="homePage.php">Home</a>
+        <a href="homePage.php">Home</a>
         <a href="Events.php">Events</a>
         <a href="dontation.php">donations</a>
         <a href="membership.php">membership</a>
