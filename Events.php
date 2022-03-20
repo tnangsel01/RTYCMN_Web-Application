@@ -1,11 +1,12 @@
-<?php include("header.php"); ?>
-<?php include("footer.php"); ?>
-
 <html lang="en">
 <head>
-  
+<title>Events</title>
 </head>
-<body>
+<?php include("header.php"); ?>
+
     <p>Hello Welcome to the events page</p>
-</body>
+
+
+
+<?php include("footer.php"); ?> 
 </html> 

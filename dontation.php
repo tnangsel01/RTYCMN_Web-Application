@@ -1,11 +1,14 @@
-<?php include("header.php"); ?>
-<?php include("footer.php"); ?>
+
+
 
 <html lang="en">
 <head>
-  
+<title>Donations</title>
 </head>
-<body>
-    <p>Donations</p>
-</body>
+<?php include("header.php"); ?>
+
+    <p>Welcome to the Donations page.</p>
+ <!-- contents goes here -->
+
+<?php include("footer.php"); ?>
 </html> 

@@ -1,11 +1,13 @@
-<?php include("header.php"); ?>
-<?php include("footer.php"); ?>
 
 <html lang="en">
 <head>
-    
+<title>Store</title>    
 </head>
-<body>
+<?php include("header.php"); ?>
     <p>Hello Welcome to the store page</p>
-</body>
+      <!---content goes here ----->
+
+
+      
+<?php include("footer.php"); ?>
 </html> 

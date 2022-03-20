@@ -1,13 +1,12 @@
-<?php include("header.php"); ?>
-<?php include("footer.php"); ?>
 
 <html lang="en">
 <head>
-    
+<title>Membership</title>
 </head>
-<body>
-    <div class="main">
-        <p>membership</p>
-    </div>
-</body>
+<?php include("header.php"); ?>
+    
+        <p>Welcome to the embership page</p>
+    <!---content goes here ----->
+
+<?php include("footer.php"); ?>
 </html> 
