@@ -1,4 +1,3 @@
-
 <head>
     <title>RTYC-MN</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -66,15 +65,15 @@
     <header>
    <div class="nav">     
         <div class="topnav"> 
-            <a href="homePage.php">Home</a>
-            <a href="Events.php">Events</a>
-            <a href="dontation.php">Donations</a>
-            <a href="membership.php">Membership</a>
-            <a href="Forums/topics.php">Forums</a>
-            <a href="store.php">Store</a>
+            <a href="../homePage.php">Home</a>
+            <a href="../Events.php">Events</a>
+            <a href="../dontation.php">Donations</a>
+            <a href="../membership.php">Membership</a>
+            <a href="../Forums/topics.php">Forums</a>
+            <a href="../store.php">Store</a>
 
             <div class="nav-right">
-                <a href="login/login.php"><i class="fa fa-fw fa-user"></i>Login</a>
+                <a href="../login/login.php"><i class="fa fa-fw fa-user"></i>Login</a>
 
             </div>
         </div>
