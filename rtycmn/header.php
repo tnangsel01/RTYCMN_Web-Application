@@ -101,10 +101,13 @@
                     <li class="nav-item">
                     <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Donation</a>
                     </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="forum.php" tabindex="-1" aria-disabled="true">Forums</a>
+                    </li>
                 </ul>
                 <form class="d-flex">
                 
-                    <button class="btn btn-outline-success" type="submit">Login</button>
+                <a href="login.php"><i class="fa fa-fw fa-user"></i>Logins</a>
                 </form>
                 </div>
             </div>
