@@ -5,8 +5,8 @@
     
 </head>
 
-<?php include("../header2.php"); ?>
-<form action="../homepage.php" method="post">
+<?php include("header.php"); ?>
+<form action="homepage.php" method="post">
 
             
                         
@@ -32,5 +32,5 @@
             
                         </form>
 
-<?php include("../footer2.php"); ?>
+<?php include("footer.php"); ?>
 </html>
