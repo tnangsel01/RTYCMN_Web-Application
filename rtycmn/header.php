@@ -77,7 +77,7 @@
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="event.php">Events</a></li>
                     <li class="nav-item"><a class="nav-link" href="forumCreate.php">Forum</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Donation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="donation.php">Donation</a></li>
                     <li class="nav-item"><a class="nav-link" href="store.php">Store</a></li>
                 </ul>
                 <ul class="navbar-nav">
