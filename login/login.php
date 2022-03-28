@@ -27,4 +27,8 @@
 </div>
 <!-- <?php include("footer.php"); ?> -->
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> b884c9df25e53a77aa89f01cb341d171a53c60d2
