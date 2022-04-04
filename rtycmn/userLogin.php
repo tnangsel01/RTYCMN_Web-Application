@@ -7,7 +7,9 @@
     <title>Login</title> 
 </head>
 <body>
-<!-- <?php include("header.php"); ?> -->
+<!-- <?php 
+session_start();
+include("header.php"); ?> -->
 <div class="text-center">
     <form style="max-width: 300px; margin:auto;" action="" method="post">
         <img class="mt-4 mb-4" src="login-icon-images.PNG" height="72" alt="login logo">

@@ -2,7 +2,9 @@
 <head>
 <title>forum</title>
 </head>
-<?php include("header.php"); ?>
+<?php 
+session_start();
+include("header.php"); ?>
 
 
 <form method="post" action="">

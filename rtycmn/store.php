@@ -4,7 +4,9 @@
 <head>
 <title>Store</title>    
 </head>
-<?php include("header.php"); ?>
+<?php 
+session_start();
+include("header.php"); ?>
    
       <!---content goes here ----->
       <div class="container mt-5 content-center">

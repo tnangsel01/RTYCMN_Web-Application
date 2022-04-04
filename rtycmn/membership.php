@@ -21,7 +21,9 @@
     </style>
 </head>
 <body>
-<?php include("header.php"); ?> 
+<?php 
+session_start();
+include("header.php"); ?> 
     
     <div class="container pt-5">  
         <div class="text-center">    

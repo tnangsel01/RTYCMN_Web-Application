@@ -4,7 +4,9 @@
     <title>RTYC-MN Home Page</title>
 </head>
 
-<?php include("header.php"); ?>
+<?php 
+session_start();
+include("header.php"); ?>
 
 <div class="container md-5">
     <div class="mx-auto" style="width: 800px;">

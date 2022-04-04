@@ -3,7 +3,9 @@
 <head>
 <title>Forum</title>
 </head>
-<?php include("header.php"); ?>
+<?php 
+session_start();
+include("header.php"); ?>
 
 
 <div class="container pt-5">  

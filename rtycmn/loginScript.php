@@ -17,5 +17,5 @@ if(mysqli_num_rows($result)){
     else{
     echo "UserName Does not Exist";
 }
-    
+    mysqli_close($dbs);
 ?>
