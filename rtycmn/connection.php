@@ -1,5 +1,5 @@
 <?php
-echo "Hello";
+
 $user='ics325sp2217';
 $pass='6697';
 $db='ics325sp2217';
