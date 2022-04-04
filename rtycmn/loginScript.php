@@ -1,7 +1,7 @@
 <?php
 include 'connection.php';
-$email=$_POST["email"];
-$password=$_POST["password"];
+$email=htmlspecialChars($_POST["email"]);
+$password=htmlspecialChars($_POST["password"]);
 
 $sql="select * from Users where Email_Address= '$email';";
 $result=mysqli_query($dbs,$sql);
