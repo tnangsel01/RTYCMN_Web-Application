@@ -5,7 +5,7 @@
 </head>
 
 <?php include("header.php"); ?>
-<body>
+
 <div class="container md-5">
     <div class="mx-auto" style="width: 800px;">
         <div class="main">
