@@ -2,7 +2,9 @@
 <head>
 <title>Forum Page</title>
 </head>
-<?php include("header.php"); ?>
+<?php 
+
+include("header.php"); ?>
     <!---content goes here ----->
     <?php 
 $cat_name = $cat_description = "";

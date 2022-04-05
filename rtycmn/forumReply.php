@@ -2,7 +2,9 @@
 <head>
 <title>forum</title>
 </head>
-<?php include("header.php"); ?>
+<?php 
+
+include("header.php"); ?>
 
 
 <form method="post" action="">

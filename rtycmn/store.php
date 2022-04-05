@@ -4,6 +4,28 @@
 <head>
 <title>Store</title>    
 </head>
+
+<?php 
+
+include("header.php"); ?>
+   
+      <!---content goes here ----->
+      <div class="container mt-5 content-center">
+        <div class="row">
+            <div class="col-lg-3">ggjfkdhgfjkldsjflk
+                <form action="addtocart.php" method="post">
+                    <div class="card">
+                        <img src="air_force_1.jfif" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="airForce1" >Key Chain</h4>
+                            <h5 class="card-text" >Price: $5</h5>
+                            <p>Quantity
+                            <input type="number" name="qty" name="qty" class="form-control col-lg-6"></p>
+                            <input type="hidden" name="name" value="Key Chain">
+                            <input type="hidden" name="price" value="$5">
+                            <button type="submit" name="addtocart" class="btn btn-info">Add Cart</button>
+                        </div>
+
 <?php include("header.php"); ?>
  
 <!---content goes here ----->
@@ -21,6 +43,7 @@
                             <input type="hidden" name="name" value="Bag">
                             <input type="hidden" name="price" value="$20">
                         <button type="submit" name="addtocart" class="btn btn-success">Add to Cart</button>
+
                     </div>
                 </div>
             </form>
