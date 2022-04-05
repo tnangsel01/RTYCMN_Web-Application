@@ -5,15 +5,15 @@
 <head>
 <title>ViewCart</title>
 </head>
-<?php session_start(); include("header.php"); ?>
+<?php include("header.php"); ?>
   
-  <div class="container-fluid">
+  <div class="container-fluid mt-5 mb-5">
     <div class="row justify-content-around">
       <div class="col-sm-12 col-md-6 col-lg-9">
         <table class="table table-bordered text-center">
           <thead class="bg-success text-white fs-5">
-            <th>No. Items</th>
-            <th>Item</th>
+            <th>Serial No.</th>
+            <th>Item Name</th>
             <th>Price</th>
             <th>Quantity</th>
             <th>Total</th>
