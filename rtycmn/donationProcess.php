@@ -45,6 +45,7 @@ else{
 
 
 include 'footer.php';
+mysqli_close($dbs);
 ?>
 
 </body>
