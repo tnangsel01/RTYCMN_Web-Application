@@ -6,11 +6,9 @@
 <body>
 <?php include("header.php"); ?>
 
-<?php
-$email ;
-?>
+
 <div class="text-center">
-    <form style="max-width: 300px; margin:auto;" action="loginScript.php" method='post'>
+    <form style="max-width: 300px; margin:auto;" action="">
         <img class="mt-8 mb-8" src="login-icon-images.PNG" height="102" alt="login logo">
         <h1 class="h3 mb-3 font-weight-normal">Please sign In</h1>
         

@@ -5,19 +5,17 @@
 <head>
 <title>ViewCart</title>
 </head>
-<?php session_start(); include("header.php"); ?>
+<?php include("header.php"); ?>
   
   <div class="container-fluid">
     <div class="row justify-content-around">
       <div class="col-sm-12 col-md-6 col-lg-9">
         <table class="table table-bordered text-center">
           <thead class="bg-success text-white fs-5">
-            <th>No. Items</th>
-            <th>Item</th>
+            <th>Serial No.</th>
+            <th>Item Name</th>
             <th>Price</th>
-            <th>Quantity</th>
-            <th>Total</th>
-            
+            <th>Quantity</th> 
           </thead>
           <tbody>
           <?php
@@ -29,14 +27,14 @@
             foreach($_SESSION['myCart'] as $key => $value){
               $key += 1;
 
-              // $subtotal = $value['Price'] * $value['Quantity'];
-                // if($value['Quantity'] >= 2 && $value['Quantity'] <= 4) {
-                //   $discount = $subtotal * 0.1; 
-                // }else if ( $value['Quantity'] >= 5 && $value['Quantity'] <= 10){
-                //   $discount = $subtotal * 0.25;
-                // }else if($value['Quantity'] == 1){
-                //   $discount = 0;
-                // }
+              $subtotal = $value['Price'] * $value['Quantity'];
+                if($value['Quantity'] >= 2 && $value['Quantity'] <= 4) {
+                  $discount = $subtotal * 0.1; 
+                }else if ( $value['Quantity'] >= 5 && $value['Quantity'] <= 10){
+                  $discount = $subtotal * 0.25;
+                }else if($value['Quantity'] == 1){
+                  $discount = 0;
+                }
 
                 echo "
                 <tr>

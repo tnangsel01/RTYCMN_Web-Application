@@ -1,10 +1,10 @@
 <?php
 include 'connection.php';
-$email=htmlspecialChars($_POST["email"]);
-$password=htmlspecialChars($_POST["password"]);
+$email = htmlspecialChars($_POST["email"]);
+$password = htmlspecialChars($_POST["password"]);
 
-$sql="select * from Users where Email_Address= '$email';";
-$result=mysqli_query($dbs,$sql);
+$sql = "select * from Users where Email_Address= '$email';";
+$result = mysqli_query($dbs,$sql);
 if(mysqli_num_rows($result)){
     $myresult=mysqli_fetch_assoc($result);;
     if(password_verify($password,$myresult['Password'])){
@@ -17,5 +17,5 @@ if(mysqli_num_rows($result)){
     else{
     echo "UserName Does not Exist";
 }
-    
+    mysqli_close($dbs);
 ?>

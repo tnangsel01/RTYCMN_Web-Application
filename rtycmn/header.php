@@ -23,25 +23,23 @@
             font-size: 20px;
            
         }
-       
+    
         .navbar-nav li.active{
-            background-color: orange;
-            color: white;
-            border-radius: 5px;
+            background-color: orange !important;
+            color: white !important;
+            border-radius: 5px !important;
         }
         .collapse {
             margin-left: 20px;
             color: green;
         }
-        .navbar-brand {
-            /* padding-bottom: 2px; */
-        }
+       
         /* Change the color of links on hover */
         .navbar-nav li:hover {
             background-color: green !important;
-            color: black !important;
             border-radius: 5px !important;
         }
+       
         .card {
             margin: auto;
             padding: 10px;
@@ -65,10 +63,15 @@
     
 </head>
 <body>
+    <?php 
+        session_start(); 
+    ?>
     <header>
         <nav class="navbar navbar-expand-sm navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.php"><img src="logo.png" class="img-fluid" alt="" width="100" height="92"></a>
+                <a class="navbar-brand" href="index.php">
+                    <img src="logo.png" class="img-fluid" alt="" width="100" height="92">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -86,9 +89,23 @@
                             <button  class="btn btn-outline-success" type="submit">Login / Sign Up</button>
                         </form>
                     </li>
+                </ul>
+                <!-- <ul class="navbar-nav">
                     <li class="nav-item">
                         <form class="d-flex" action="viewcart.php" method="post">
-                            <button  class="btn btn-outline-success" type="submit">My Cart</button>
+                            <button type="button" class="btn btn-success position-relative">My Cart
+                                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                                    <span class="visually-hidden">New alerts</span>
+                                </span>
+                            </button>
+                            </form>
+                    </li>
+                </ul> -->
+                    
+                <ul class="navbar-nav right">
+                    <li class="nav-item">
+                        <form class="d-flex" action="viewcart.php" method="post">
+                            <button  class="btn btn-success" type="submit">My Cart (0)</button>
                         </form>
                     </li>
                 </ul>
