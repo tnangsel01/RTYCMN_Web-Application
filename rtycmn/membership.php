@@ -22,7 +22,7 @@
 </head>
 <body>
 <?php 
-session_start();
+
 include("header.php"); ?> 
     
     <div class="container pt-5">  

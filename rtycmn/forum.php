@@ -3,7 +3,7 @@
 <title>Forum Page</title>
 </head>
 <?php 
-session_start();
+
 include("header.php"); ?>
     <!---content goes here ----->
     <?php 

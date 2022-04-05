@@ -6,13 +6,13 @@
 </head>
 
 <?php 
-session_start();
+
 include("header.php"); ?>
    
       <!---content goes here ----->
       <div class="container mt-5 content-center">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3">ggjfkdhgfjkldsjflk
                 <form action="addtocart.php" method="post">
                     <div class="card">
                         <img src="air_force_1.jfif" class="card-img-top">

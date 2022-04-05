@@ -5,7 +5,7 @@
 </head>
 
 <?php 
-session_start();
+
 include("header.php"); ?>
 
 <div class="container md-5">

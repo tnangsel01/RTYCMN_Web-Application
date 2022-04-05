@@ -4,7 +4,7 @@
     <title>Annual Activities</title>
 </head>
 <?php 
-session_start();
+
 include("header.php"); ?>
 <div class="container mt-3 text-center">
   <h2>RTYC-MN Annual Events</h2>
