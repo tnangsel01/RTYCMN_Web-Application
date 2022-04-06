@@ -30,5 +30,5 @@ if($result = mysqli_query($dbs, $sql)){
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($dbs);
 }
-
+mysqli_close($dbs);
 ?>

@@ -5,12 +5,15 @@
    <title>Donation</title>
 </head>
  
-<?php include("header.php"); ?>
+<?php 
+
+include("header.php");
+ ?>
     
     <div class="container pt-5">  
         <div class="text-center">    
             <div class="signup-form">
-                <form style="max-width: 450px; margin:auto;" action="" method="post" enctype="multipart/form-data">
+                <form style="max-width: 450px; margin:auto;" action="donationProcess.php" method="post" enctype="multipart/form-data">
                     <h2>Donation</h2>
                     <div class="form-group p-2">
                         <div class="row">
