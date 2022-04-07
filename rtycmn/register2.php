@@ -13,8 +13,8 @@ include("header.php"); ?>
     <div class="container pt-5">  
         <div class="text-center">    
         <div class="signup-form">
-            <form style="max-width: 450px; margin:auto;" action="register_a.php" method="post" enctype="multipart/form-data">
-                <h2>Create your Account</h2>
+            <form style="max-width: 450px; margin:auto;" action="login_register2.php" method="post" enctype="multipart/form-data">
+                <h2>Create your Account Andrew</h2>
                 <div class="form-group p-2">
                     <div class="row">
                         <div class="col"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
