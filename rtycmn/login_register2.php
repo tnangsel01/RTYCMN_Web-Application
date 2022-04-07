@@ -3,7 +3,7 @@
 include 'connection.php';
 
     $email = htmlspecialChars($_POST["email"]);
-    $password=htmlspecialchars($_POST['pass']);
+    $password=htmlspecialchars($_POST['password']);
     $password=password_hash($password,PASSWORD_DEFAULT);
     $firstName=htmlspecialchars($_POST["first_name"]);
     $lastName=htmlspecialchars($_POST["last_name"]);
@@ -18,7 +18,7 @@ include 'connection.php';
                     echo "
                     <script>
                         alert('$result_fetch[email] - E-mail already registered!');
-                        window.location.href='register2.php';
+                        window.location.href='register.php';
                     </script>
                     ";
                 
