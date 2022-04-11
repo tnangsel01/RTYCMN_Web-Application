@@ -13,15 +13,15 @@ CREATE TABLE 'itemImages' (
     'imageFile' varbinary(max) NOT NULL
 )
 
-insert into 'items' ('itemID', 'itemName', 'price', 'created_at', 'modified_at') VALUES
-(500, 'Back Pack', '$20.99', '2022-04-09 04:57:50', '2022-04-09 04:57:50'),
-(501, 'Bracelet', '$15.99', '2022-04-09 04:57:50', '2022-04-09 04:57:50'),
-(502, 'Flag', '$25.99', '2022-04-09 04:57:50', '2022-04-09 04:57:50'),
-(503, 'Handbag', '$30.99', '2022-04-09 04:57:50', '2022-04-09 04:57:50'),
-(504, 'Hoodie Jacket', '$50.99', '2022-04-09 04:57:50', '2022-04-09 04:57:50'),
-(505, 'Key Chain', '$8.99', '2022-04-09 04:57:50', '2022-04-09 04:57:50'),
-(506, 'Logo', '$3.99', '2022-04-09 04:57:50', '2022-04-09 04:57:50'),
-(507, 'Shirt', '$40.99', '2022-04-09 04:57:50', '2022-04-09 04:57:50');
+insert into 'items' ('Item_Id', 'Item_Name', 'Item_Price')VALUES
+(500, 'Back Pack', '$20.99'),
+(501, 'Bracelet', '$15.99'),
+(502, 'Flag', '$25.99'),
+(503, 'Handbag', '$30.99'),
+(504, 'Hoodie Jacket', '$50.99'),
+(505, 'Key Chain', '$8.99'),
+(506, 'Logo', '$3.99'),
+(507, 'Shirt', '$40.99');
 
 
 insert into 'itemImages' ('imageName', 'originalFormat', 'imageFile')
