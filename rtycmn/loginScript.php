@@ -22,8 +22,15 @@ if(mysqli_num_rows($result)){
          $_SESSION["First_Name"]=$myresult['First_Name'];
          $_SESSION["Last_Name"]=$myresult['Last_Name'];
          $_SESSION["LoggedIn"]=TRUE;
+         $_SESSION["Admin"]=$myresult["Admin"];
 
-         echo "In Session start".$_SESSION['User_ID'];
+         echo "In Session start".$_SESSION['User_ID'].$_SESSION["Admin"];
+         if ($_SESSION["Admin"]==1){
+             echo "Hello Admin";
+         }
+         else{
+             echo "Hello User";
+         }
 
          
     }
